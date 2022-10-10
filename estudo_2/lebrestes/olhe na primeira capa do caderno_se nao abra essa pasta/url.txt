@@ -1,0 +1,1 @@
+na url sempre que voce for coloar um arquivo que esta antes da pasta atual colocar ../
