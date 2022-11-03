@@ -41,12 +41,24 @@
 
         }
 
-    
+        thead {
+            position: relative;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(92, 92, 92);;
+        }
 
         thead > tr > th:hover {
             background-color: rgba(255, 255, 255, 0.425);
             color: black;
             cursor: context-menu;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: lightgrey;
         }
 
         tfoot td {
