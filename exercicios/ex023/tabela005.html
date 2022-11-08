@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de tabela</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            padding-left: 20px;
+        }
+
+        h1 {
+            padding: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 400px;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .cnome {
+            background-color: blueviolet;
+        }
+
+        .csexo {
+            background-color: aqua;
+        }
+
+        .cidade {
+            background-color: coral;
+        }
+
+        .cprof {
+            background-color: darkorange;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabela</h1>
+    <table>
+        <colgroup>
+            <col  class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Paulo Gomes</td>
+            <td>M</td>
+            <td>37</td>
+            <td>Pedreiro</td>
+        </tr>
+        <tr>
+            <td>Julia Gonsales</td>
+            <td>F</td>
+            <td>24</td>
+            <td>Dentista</td>
+        </tr>
+        <tr>
+            <td>Maria da Silva</td>
+            <td>F</td>
+            <td>45</td>
+            <td>Custureira</td>
+        </tr>
+        <tr>
+            <td>Marcos Pereira</td>
+            <td>M</td>
+            <td>37</td>
+            <td>Engenheiro</td>
+        </tr>
+        <tr>
+            <td>Adriana Ferrari</td>
+            <td>F</td>
+            <td>33</td>
+            <td>Infermeira</td>
+        </tr>
+        <tr>
+            <td>Julio Cesar</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Programador</td>
+        </tr>
+    </table>
+</body>
+</html>
