@@ -45,60 +45,66 @@
         .cprof {
             background-color: darkorange;
         }
+
+        #container {
+            overflow-x: auto;
+        }
     </style>
 </head>
 <body>
     <h1>Exercicio de Tabela</h1>
-    <table>
-        <colgroup>
-            <col  class="cnome">
-            <col class="csexo">
-            <col class="cidade">
-            <col class="cprof">
-        </colgroup>
-        <caption>Cadastro</caption>
-        <tr>
-            <th scope="col">Nome</th>
-            <th scope="col">Sexo</th>
-            <th scope="col">Idade</th>
-            <th scope="col">Profissão</th>
-        </tr>
-        <tr>
-            <td>Paulo Gomes</td>
-            <td>M</td>
-            <td>37</td>
-            <td>Pedreiro</td>
-        </tr>
-        <tr>
-            <td>Julia Gonsales</td>
-            <td>F</td>
-            <td>24</td>
-            <td>Dentista</td>
-        </tr>
-        <tr>
-            <td>Maria da Silva</td>
-            <td>F</td>
-            <td>45</td>
-            <td>Custureira</td>
-        </tr>
-        <tr>
-            <td>Marcos Pereira</td>
-            <td>M</td>
-            <td>37</td>
-            <td>Engenheiro</td>
-        </tr>
-        <tr>
-            <td>Adriana Ferrari</td>
-            <td>F</td>
-            <td>33</td>
-            <td>Infermeira</td>
-        </tr>
-        <tr>
-            <td>Julio Cesar</td>
-            <td>M</td>
-            <td>22</td>
-            <td>Programador</td>
-        </tr>
-    </table>
+    <div id="container">
+        <table>
+            <colgroup>
+                <col  class="cnome">
+                <col class="csexo">
+                <col class="cidade">
+                <col class="cprof">
+            </colgroup>
+            <caption>Cadastro</caption>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+            <tr>
+                <td>Paulo Gomes</td>
+                <td>M</td>
+                <td>37</td>
+                <td>Pedreiro</td>
+            </tr>
+            <tr>
+                <td>Julia Gonsales</td>
+                <td>F</td>
+                <td>24</td>
+                <td>Dentista</td>
+            </tr>
+            <tr>
+                <td>Maria da Silva</td>
+                <td>F</td>
+                <td>45</td>
+                <td>Custureira</td>
+            </tr>
+            <tr>
+                <td>Marcos Pereira</td>
+                <td>M</td>
+                <td>37</td>
+                <td>Engenheiro</td>
+            </tr>
+            <tr>
+                <td>Adriana Ferrari</td>
+                <td>F</td>
+                <td>33</td>
+                <td>Infermeira</td>
+            </tr>
+            <tr>
+                <td>Julio Cesar</td>
+                <td>M</td>
+                <td>22</td>
+                <td>Programador</td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
