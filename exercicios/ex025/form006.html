@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form autocomplete="on" action="dados.php" method="post">
+        <p>
+            <label for="icor">Cor:</label>
+            <input type="color" name="cor" id="icor" value="#0000ff">
+        </p>
+
+        <p>
+            <label for="isas">Nivel de satisfação</label>
+            <input type="range" name="sas" id="isas" min="1" max="10" value="1">
+        </p>
+
+        <p>
+            <label for="ifile">Envie o arquivo:</label>
+            <input type="file" name="file" id="ifile">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
