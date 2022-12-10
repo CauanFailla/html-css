@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/*TABLET*/
+
+@media screen and (min-width: 768px) and (max-width: 998px){
+    body {
+        background-image: url('../imagens/back-tablet.jpg');
+    }
+
+    #cel {
+        display: none;
+    }
+    #table {display: block;}
+    #impres {display: none;}
+    #pc {display: none;}
+    #tv {display: none;}
+}
+
+/*PC*/
+
+@media screen and (min-width: 998px) and (max-width: 1200px) {
+    body {
+        background-image: url('../imagens/back-pc.jpg');
+    }
+
+    #cel {
+        display: none;
+    }
+    #table {display: none;}
+    #impres {display: none;}
+    #pc {display: block;}
+    #tv {display: none;}
+}
+
+/*TV*/
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url('../imagens/back-tv.jpg');
+    }
+    #cel {
+        display: none;
+    }
+    
+    #table {display: none;}
+    #impres {display: none;}
+    #pc {display: none;}
+    #tv {display: block;}
+}
